@@ -42,7 +42,7 @@ int main(void)
 		OLED_ON();//≤‚ ‘OLED–›√ﬂ∫ÛªΩ–—
 		OLED_DrawBMP(0,0,64,8,(unsigned char *)gImage_sy);//≤‚ ‘BMPŒªÕºœ‘ æ
 		delay_us(2);
-		printf("ok\n%s,%s",__DATE__,__TIME__);
+		printf("system ok\n%s,%s",__DATE__,__TIME__);
 		//OLED_ShowStr(65,3,"HelTe",1);//≤‚ ‘6*8◊÷∑˚
 	while(1)
 	{
